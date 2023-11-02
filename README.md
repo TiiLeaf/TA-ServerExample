@@ -4,6 +4,8 @@
 Serves example data back to the main Test Author program. Does not actually perform verification for information such as the Bearer tokens or testplan IDs.
 
 ## Endpoints
+See the GitHub wiki for full documentation.
+
 ### `[GET] /testplans/`
 Description: Lists the name and ID of every testplan within the CMDB account specified by the Bearer token.
 
