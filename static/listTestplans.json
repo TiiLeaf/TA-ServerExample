@@ -1,0 +1,12 @@
+{
+    "Crocs": [
+      {"name": "Homepage Tests", "id":"1"},
+      {"name": "Account Management Tests", "id":"2"}
+    ],
+    "Dollar Shave Club": [
+      {"name": "Landing page test", "id":"1"},
+      {"name": "Unsubscribe test", "id":"2"},
+      {"name": "Account creation test", "id":"3"},
+      {"name": "Change shipping address test", "id":"4"}
+    ]
+  }

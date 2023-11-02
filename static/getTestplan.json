@@ -1,0 +1,89 @@
+{
+    "id": "f60c76e4-d9c4-43dc-87de-4bb57a1dfeb7",
+    "version": "3.0",
+    "name": "Example Testplan",
+    "url": "http://www.google.com",
+    "urls": [
+      "http://www.google.com"
+    ],
+    "plugins": [],
+    "suites": [
+      {
+        "id": "2e5faf6c-dae8-4e01-9c43-e554795e6f6f",
+        "name": "New Suite",
+        "parallel": false,
+        "persistSession": false,
+        "tests": [
+          "ba0322d7-d124-405f-b1c9-3a3f5a7f2cc0"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "tests": [
+      {
+        "id": "ba0322d7-d124-405f-b1c9-3a3f5a7f2cc0",
+        "name": "New Test",
+        "commands": [
+          {
+            "id": "1b65188c-850f-450b-ad9a-fde8b1195a2f",
+            "command": "open",
+            "target": "http://samueljansen.com/dev/base2summitTesterPlayground/",
+            "value": ""
+          },
+          {
+            "command": "click",
+            "target": "name=checkbox",
+            "value": "",
+            "insertBeforeLastCommand": false,
+            "frameLocation": "root",
+            "winHandleId": "win4645",
+            "id": "1e113fe2-cdd6-4849-a43b-4e66d6b93e11",
+            "targets": [
+              [
+                "name=checkbox",
+                "name"
+              ],
+              [
+                "css=input:nth-child(5)",
+                "css:finder"
+              ],
+              [
+                "xpath=(//input[@name='checkbox'])[1]",
+                "xpath:attributes"
+              ]
+            ]
+          },
+          {
+            "command": "verifyChecked",
+            "target": "name=checkbox",
+            "value": "",
+            "insertBeforeLastCommand": false,
+            "frameLocation": "root",
+            "winHandleId": "win4645",
+            "id": "b02535ee-8053-4e07-90f0-c837dc12dc4d",
+            "targets": [
+              [
+                "name=checkbox",
+                "name"
+              ],
+              [
+                "css=input:nth-child(5)",
+                "css:finder"
+              ],
+              [
+                "xpath=(//input[@name='checkbox'])[1]",
+                "xpath:attributes"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "snapshot": {
+      "dependencies": {},
+      "tests": [],
+      "jest": {
+        "extraGlobals": []
+      }
+    }
+  }
